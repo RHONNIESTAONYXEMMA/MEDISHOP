@@ -17,4 +17,5 @@ public class Activity7 extends AppCompatActivity {
         Intent intent = new Intent(this, Activity8.class);
         startActivity(intent);
     }
+
 }

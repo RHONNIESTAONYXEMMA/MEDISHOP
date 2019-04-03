@@ -20,7 +20,7 @@
         android:text="WELCOME TO MEDISHOP, YOUR NUMBER ONE CENTRE FOR MEDICAL FACLITIES AND SHOPS LOCATIONS AROUND YOUR TOWN"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textColor="@color/colorAccent"
-        android:textSize="24sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         android:typeface="monospace"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -54,13 +54,13 @@
         android:id="@+id/shops"
         style="@android:style/Widget.Material.Light.Button"
         android:layout_width="311dp"
-        android:layout_height="80dp"
+        android:layout_height="66dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:background="@color/colorAccent"
-        android:fontFamily="sans-serif-medium"
+        android:fontFamily="sans-serif-condensed"
         android:text="COMMODITY SHOPS"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="24sp"
@@ -68,7 +68,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.603" />
+        app:layout_constraintVertical_bias="0.637" />
 
     <Button
         android:id="@+id/cancel"
@@ -80,7 +80,6 @@
         android:layout_marginBottom="8dp"
         android:background="@color/colorPrimary"
         android:lineSpacingExtra="10sp"
-        android:onClick="leave"
         android:text="CANCEL"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="24sp"

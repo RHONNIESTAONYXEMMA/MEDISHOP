@@ -17,4 +17,8 @@ public class Activity5 extends AppCompatActivity {
         Intent intent = new Intent(this, Activity6.class);
         startActivity(intent);
     }
+    public void tintaka(View view){
+        Intent intent = new Intent(this, Activity3.class);
+        startActivity(intent);
+}
 }

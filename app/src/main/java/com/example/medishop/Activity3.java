@@ -17,4 +17,9 @@ public class Activity3 extends AppCompatActivity {
         Intent intent = new Intent(this, Activity4.class);
         startActivity(intent);
     }
+
+    public void rewind (View vi){
+        Intent intent = new Intent(this, Activity3.class);
+        startActivity(intent);
+    }
 }

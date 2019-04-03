@@ -112,6 +112,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:background="@color/colorAccent"
+        android:onClick="rewind"
         android:text="BACK"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"

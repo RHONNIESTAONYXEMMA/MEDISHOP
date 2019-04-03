@@ -16,4 +16,8 @@ public class Activity4 extends AppCompatActivity {
         Intent intent = new Intent(this, Activity5.class);
         startActivity(intent);
     }
+    public void nyuma (View view){
+        Intent intent = new Intent(this, Activity4.class);
+        startActivity(intent);
+    }
 }

@@ -98,6 +98,7 @@
         android:layout_marginBottom="8dp"
         android:background="@color/colorAccent"
         android:backgroundTint="@color/colorAccent"
+        android:onClick="nyuma"
         android:text="BACK"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
