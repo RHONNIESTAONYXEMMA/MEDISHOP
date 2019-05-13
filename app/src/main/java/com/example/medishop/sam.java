@@ -36,7 +36,7 @@ ArrayList<String> weeks;
         List.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                    @Override
                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                       Toast.makeText(sam.this, ""+weeks.get(position), Toast.LENGTH_SHORT).show();
+                       Toast.makeText(sam.this, "selected "+weeks.get(position), Toast.LENGTH_SHORT).show();
                    }
                });
 

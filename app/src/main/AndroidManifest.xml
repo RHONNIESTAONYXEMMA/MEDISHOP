@@ -5,12 +5,14 @@
     <application
         android:name=".medishop"
         android:allowBackup="true"
-        android:icon="@drawable/medical"
+        android:icon="@mipmap/gynaecologist"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Dash"></activity>
+        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Dash" />
         <activity android:name=".sam" />
         <activity android:name=".Activity9" />
         <activity android:name=".Activity8" />
